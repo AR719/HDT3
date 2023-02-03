@@ -1,6 +1,8 @@
 import java.io.IOException;
+import java.lang.Comparable;
 
-public class pancake_sorting {
+public class pancake_sorting <E extends Comparable<E>>
+ {
         static void flip_array(int my_arr[], int i) {
            int temp, beg = 0;
            while (beg < i) {
