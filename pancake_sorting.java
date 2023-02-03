@@ -1,8 +1,9 @@
 import java.io.IOException;
 import java.lang.Comparable;
-
+import java.util.ArrayList;
 public class pancake_sorting <E extends Comparable<E>>
  {
+   
         static void flip_array(int my_arr[], int i) {
            int temp, beg = 0;
            while (beg < i) {
@@ -16,7 +17,7 @@ public class pancake_sorting <E extends Comparable<E>>
         static int find_index(int my_arr[], int n) {
            int max_ele, i;
            for (max_ele = 0, i = 0; i < n; ++i)
-              if (my_arr[i] > my_arr[max_ele])
+              if (my_arr[i]>my_arr[max_ele] )
               max_ele = i;
            return max_ele;
         }
