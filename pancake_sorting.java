@@ -36,11 +36,7 @@ public class pancake_sorting <E extends Comparable<E>>
             System.in.read();
            int my_arr[] = { 67, 43, 89, 11, 23, 0, 98, 102, 4, 3000, 340, 123, 456 , 123 , 11, 11, 123 ,12345, 43 };
            int arr_len = my_arr.length;
-           pancake_sort(my_arr, arr_len);
-           System.out.println("The sorted array is : ");
-           for (int i = 0; i < arr_len; i++)
-           System.out.print(my_arr[i] + " ");
-           System.out.println("");
+           
         }
      }
     
